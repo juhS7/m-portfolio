@@ -185,7 +185,7 @@ body{
 }
 
 .nav__link:hover{
-    color: rgb(124, 116, 116)
+    color: #671cd6;
 }
 
 .nav__icon{
@@ -950,6 +950,7 @@ margin-bottom: var(--mb-2-5);
     font-size: var(--h1-font-size);
     margin-bottom: var(--mb-0-25);
     color: black;
+    font-weight: var(--font-medium);
 }
 
 .footer__subtitle{
@@ -960,10 +961,11 @@ margin-bottom: var(--mb-2-5);
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
+    font-weight: var(--font-semi-bold);
 }
 
 .footer__link:hover{
-    color: rgb(124, 116, 116);
+    color: #03084C
 }
 
 .footer__social{
@@ -972,7 +974,7 @@ margin-bottom: var(--mb-2-5);
 }
 
 .footer__social:hover{
-    color: black;
+    color: #03084C;
 }
 
 .footer__title,
